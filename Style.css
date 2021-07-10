@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Ubuntu&display=swap');
+
+*{
+    margin: 0px;
+    Padding: 0px;
+    box-sizing: border-box;
+}
+
+ body{
+    background-image:url(image2.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center; 
+} 
+
+.area { display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 80%;
+    padding: 2rem;
+    border: 1px solid #fff;
+    box-shadow: 2px 8px 10px 1px rgba(0, 0, 0, .8);
+    margin-top: 6%;
+    }
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 100px;
+    padding-top: 0px;
+    letter-spacing: 5px;
+}
+
+h2{
+    color:green;
+    font-size: 200px;
+    font-family:"Ubuntu", sans-serif;
+}
+
+button{ font-family: 'Roboto', sans-serif;
+    font-weight: 500px;
+    font-size: 1rem;
+    padding: 18px;
+    letter-spacing: 1px;
+    background-color: rgb(10, 10, 82);
+    letter-spacing: 3px;
+    border: none;
+    outline: none;
+    color:white;
+    border-radius: 5px;
+    box-shadow: 2px 8px 10px .2px rgba(0, 0, 0, .8);
+    transition: all 0.9ms ease-in-out;}
+
+    button:hover {
+        cursor: pointer;
+        transform: scale(0.9);
+    }
+
+       
+.fab{ margin-top: 20px;
+
+    color: #fff;
+    font-size: 2rem;
+    color: rgb(10, 10, 82);
+    
+}
+
+.fab:hover{
+    cursor: pointer;
+    color:khaki
+}
+
+@media only screen and ( max-width: 375px)
+{
+   body{
+    background-size: cover;
+    height: 667px;
+    width: 375px;
+ }
+ 
+   
+h1{ margin-top: 20px;
+    margin-bottom: -40px;
+font-size: 30px;
+}
+
+
+    h2{ margin-top:30PX;
+
+    }
+
+
+.area{
+    margin-top:60px;
+    margin-left: 35px;
+    width:80%;
+    height: 80%;
+    margin-right: 45px;
+}
+
+.lower {
+    -top: 0px;
+    width:150px;
+    font-size:15px
+}
+
+.add{
+    width: 120px;
+    font-size:15px ;
+}
+ 
+
+}
+
+
+
+  
